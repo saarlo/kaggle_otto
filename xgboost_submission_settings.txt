@@ -1,0 +1,20 @@
+SUBMISSIONS:
+[289]eval-mlogloss:0.452744train-mlogloss:0.157256 => 0.481@LB
+{'bst:max_depth': 8, 'subsample': 0.8, 'bst:eta': 0.15, 'num_class': 9, 'silent': 0, 
+'eval_metric': 'mlogloss', 'objective': 'multi:softprob', 'colsample_bytree': 0.6, 'min_child_weight': 5}
+
+[550] eval-mlogloss:0.449 => 0.461@LB
+{'bst:max_depth': 8, 'subsample': 0.9, 'bst:eta': 0.075, 'num_class': 9, 'silent': 0, 
+'eval_metric': 'mlogloss', 'objective': 'multi:softprob', 'colsample_bytree': 0.6, 'min_child_weight': 4}
+
+#[2699]eval-mlogloss:0.452272train-mlogloss:0.155158 => 0.44881@LB --- BEST
+{'bst:max_depth': 10, 'subsample': 0.9, 'bst:eta': 0.01, 'num_class': 9, 'silent': 0, 
+'eval_metric': 'mlogloss', 'objective': 'multi:softprob', 'colsample_bytree': 0.6, 'min_child_weight': 4}
+
+#[3348]eval-mlogloss:0.452105train-mlogloss:0.145009 => LB => LESS
+{'bst:max_depth': 10, 'subsamplee': 0.9, 'bst:eta': 0.01, 'gamma': 0.5, 'num_class': 9, 'silent': 0, 
+'eval_metric': 'mlogloss', 'objective': 'multi:softprob', 'colsample_bytree': 0.6, 'min_child_weight': 4}
+
+#[4200]eval-mlogloss:0.451073train-mlogloss:0.145168 => 0.44991
+{'bst:max_depth': 10, 'subsample': 0.9, 'bst:eta': 0.0075, 'gamma': 0.4, 'num_class': 9, 'silent': 0, 
+'eval_metric': 'mlogloss', 'objective': 'multi:softprob', 'colsample_bytree': 0.6, 'min_child_weight': 4}
